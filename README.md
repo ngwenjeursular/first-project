@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://ngwenjeursular.github.io/first-project/)
+- Solution URL: [ solution URL](https://www.frontendmentor.io/solutions/just-my-editorim-still-unfamiliar-with-some-tools-Ew4OGMnSD)
+- Live Site URL: [live site URL](https://ngwenjeursular.github.io/first-project/)
 
 ## My process
 
