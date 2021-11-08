@@ -1,0 +1,70 @@
+body {
+    background-color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+}
+.big-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border: 2px solid none;
+    box-sizing: border-box;
+}
+.column1,.column2,.column3 {
+    height: 430px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.column1 {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+    
+}
+.column2 {
+    background-color: hsl(184, 100%, 22%);
+}
+.column3 {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+.little-box {
+    margin: 20px;
+}
+button {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid hsla(0, 0%, 100%, 0.75) ;
+    background: transparent;
+    color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+}
+p {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 90px;
+    line-height: 23px;
+}
+h1, p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+#sedan:hover {
+    background-color: #fff;
+    color: hsl(31, 77%, 52%);
+        
+}
+#suvs:hover {
+    background-color: #fff;
+    color: hsl(184, 100%, 22%);
+}
+#luxury:hover {
+    background-color: #fff;
+    color: hsl(179, 100%, 13%);
+}
