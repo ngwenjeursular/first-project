@@ -42,11 +42,10 @@ button {
     width: 120px;
     height: 40px;
     border-radius: 20px;
-    border: 2px solid hsla(0, 0%, 100%, 0.75) ;
-    background: transparent;
-    color: hsla(0, 0%, 100%, 0.75);
+    border: none;
     cursor: pointer;
 }
+
 h1 {
     margin-top: 25px;
 }
@@ -65,18 +64,29 @@ h1 {
     /*font-family: 'Big Shoulders Display', cursive;*/
     font-weight: 700;
 }
-#sedan:hover {
+#sedan {
     background-color: #fff;
     color: hsl(31, 77%, 52%);
         
 }
-#suvs:hover {
+#suvs {
     background-color: #fff;
     color: hsl(184, 100%, 22%);
 }
-#luxury:hover {
+#luxury {
     background-color: #fff;
     color: hsl(179, 100%, 13%);
+}
+#sedan:hover,#suvs:hover,#luxury:hover {
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    background: transparent;
+    cursor: pointer;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+#end {
+    color: black;
+    text-align: center;
+    margin-top: 0px;
 }
 /*For Mobile*/
 @media (max-width : 950px) {
