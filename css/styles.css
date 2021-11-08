@@ -1,6 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: hsla(0, 0%, 100%, 0.75);
-    font-weight: 400;
 }
 .big-box {
     display: flex;
@@ -11,11 +15,8 @@ body {
     box-sizing: border-box;
 }
 .column1,.column2,.column3 {
-    height: 430px;
-    width: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 430px;/*442px*/
+    width: 250px;/*328px*/
     flex-direction: column;
 }
 .column1 {
@@ -46,14 +47,23 @@ button {
     color: hsla(0, 0%, 100%, 0.75);
     cursor: pointer;
 }
+h1 {
+    margin-top: 25px;
+}
 p {
     font-size: 15px;
-    margin-top: 0px;
+    margin-top: 15px;
     margin-bottom: 90px;
     line-height: 23px;
-}
-h1, p {
     color: hsla(0, 0%, 100%, 0.75);
+    /*font-family: 'Lexend Deca', sans-serif;*/
+    font-weight: 400;
+}
+
+h1 {
+    color: hsla(0, 0%, 100%, 0.75);
+    /*font-family: 'Big Shoulders Display', cursive;*/
+    font-weight: 700;
 }
 #sedan:hover {
     background-color: #fff;
@@ -67,4 +77,26 @@ h1, p {
 #luxury:hover {
     background-color: #fff;
     color: hsl(179, 100%, 13%);
+}
+/*For Mobile*/
+@media (max-width : 950px) {
+
+    .column1,.column2,.column3 {
+        flex-direction: row;
+        display: flex;
+        padding: 10px;
+    }
+    .big-box {
+        flex-direction: column;
+    }
+    .column1 {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+    }
+    .column3 {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 8px;
+    }
 }
